@@ -1,0 +1,182 @@
+body{
+    background: rgb(216, 112, 147);
+}
+.heart_pic{
+    width: auto; 
+    height: auto; 
+    max-height: 40px;
+    max-width: 40px;
+}
+.kitty{
+    position: absolute;
+    width: auto; 
+    height: auto; 
+    top: 20vh;
+    left: 20vw;
+    max-height: 45vh;
+    max-width: 45vw;
+}
+#main{
+    position: absolute;
+    top: 20vh;
+    left: 20vw;
+    display: flex; 
+    justify-content: space-around;
+    border-radius: 31% 69% 52% 48% / 37% 39% 61% 63% ;
+    width: 60vw;
+    height: 40vw;
+    background: rgba(255, 239, 213, 0.625);
+}
+#ans_block{
+    display: none;
+    position: absolute;
+    top: 15vh;
+    left: 10vw;
+    justify-content: space-around;
+    border-radius: 72% 28% 52% 48% / 20% 66% 34% 80%  ;
+    width: 80vw;
+    height: 60vh;
+    background: rgba(255, 239, 213, 0.982);
+}
+#ans_block2{
+    display: none;
+    position: absolute;
+    top: 15vh;
+    left: 10vw;
+    justify-content: space-around;
+    border-radius: 72% 28% 52% 48% / 20% 66% 34% 80%  ;
+    width: 80vw;
+    height: 60vh;
+    background: rgba(255, 239, 213, 0.982);
+}
+.text{
+    margin: 0px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 8vw;
+    letter-spacing: -2.4px;
+    word-spacing: 1.8px;
+    color: rgb(111, 2, 2);
+    font-weight: 400;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+    }
+#btns{
+    position: absolute;
+    top:45vh;
+    left: 21vw;
+
+}
+#btns > button{
+    margin: 2vw;
+    width:25vw;
+    height:10vh;
+    border: 0px;
+
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;
+
+    background: #f4659ca3;
+    box-shadow: 4px 5px 0px 0px #f5978ec5;
+
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 8vw;
+    letter-spacing: -2.4px;
+    word-spacing: 1.8px;
+    color: rgb(111, 2, 2);
+    font-weight: 400;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.heart1{
+    position: absolute;
+    left: 7vw;
+    top: -10px;
+    animation: anim 5s linear infinite;
+}
+.heart2{
+    position: absolute;
+    left: 26vw;
+    top: -10px;
+    animation: anim 8s linear infinite;
+}
+.heart3{
+    position: absolute;
+    left: 45vw;
+    top: -10px;
+    animation: anim 6s linear infinite;
+}
+.heart4{
+    position: absolute;
+    left: 68vw;
+    top: -10px;
+    animation: anim 7s linear infinite;
+}
+.heart5{
+    position: absolute;
+    left: 88vw;
+    top: -10px;
+    animation: anim 4s linear infinite;
+}
+.heart6{
+    position: absolute;
+    left: 15vw;
+    animation: anim 4.5s linear infinite;
+}
+.heart7{
+    position: absolute;
+    left: 30vw;
+    top: -10px;
+    animation: anim 5.5s linear infinite;
+}
+.heart8{
+    position: absolute;
+    left: 58vw;
+    top: -10px;
+    animation: anim 6.8s linear infinite;
+}
+.heart9{
+    position: absolute;
+    left: 70vw;
+    top: -10px;
+    animation: anim 3.9s linear infinite;
+}
+.heart10{
+    position: absolute;
+    left: -4vw;
+    animation: anim 5.7s linear infinite;
+}
+.heart11{
+    position: absolute;
+    left: 25vw;
+    top: -10px;
+    animation: anim 3.8s linear infinite;
+}
+.heart12{
+    position: absolute;
+    left: 73vw;
+    top: -10px;
+    animation: anim 3.5s linear infinite;
+}
+
+
+@keyframes anim {
+    0% {top: -40px;}
+    100% {top: 104vh;}
+}
