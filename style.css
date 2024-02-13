@@ -109,12 +109,16 @@ body{
     left: 7vw;
     top: -10px;
     animation: anim 5s linear infinite;
+    top: -100px;
+    animation-delay: -4s;
 }
 .heart2{
     position: absolute;
     left: 26vw;
     top: -10px;
     animation: anim 8s linear infinite;
+    top: -100px;
+    animation-delay: 1.5s;
 }
 .heart3{
     position: absolute;
@@ -125,8 +129,9 @@ body{
 .heart4{
     position: absolute;
     left: 68vw;
-    top: -10px;
+    top: -100px;
     animation: anim 7s linear infinite;
+    animation-delay: 2s;
 }
 .heart5{
     position: absolute;
@@ -138,6 +143,8 @@ body{
     position: absolute;
     left: 15vw;
     animation: anim 4.5s linear infinite;
+    top: -100px;
+    animation-delay: 1s;
 }
 .heart7{
     position: absolute;
@@ -150,29 +157,37 @@ body{
     left: 58vw;
     top: -10px;
     animation: anim 6.8s linear infinite;
+    animation-delay: -3s;
 }
 .heart9{
     position: absolute;
     left: 70vw;
     top: -10px;
     animation: anim 3.9s linear infinite;
+    top: -100px;
+    animation-delay: -2s;
 }
 .heart10{
     position: absolute;
     left: -4vw;
     animation: anim 5.7s linear infinite;
+    top: -100px;
+    animation-delay: -3s;
 }
 .heart11{
     position: absolute;
     left: 25vw;
-    top: -10px;
     animation: anim 3.8s linear infinite;
+    top: -100px;
+    animation-delay: 0.5s;
 }
 .heart12{
     position: absolute;
     left: 73vw;
     top: -10px;
     animation: anim 3.5s linear infinite;
+    top: -100px;
+    animation-delay: 0.8s;
 }
 
 
